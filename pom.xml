@@ -6,8 +6,8 @@
         <version>4.0.1</version>
     </parent>
 
-    <groupId>com.example</groupId>
-    <artifactId>cqrs-demo</artifactId>
+    <groupId>com.dhruba</groupId>
+    <artifactId>cqrs</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <properties>
         <java.version>25</java.version>
