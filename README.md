@@ -13,3 +13,5 @@ Synchronization: A Kafka Producer captures the change (or the event) and publish
 Read Side (Sync): A Kafka Consumer listens to the topic and updates the Elasticsearch index.
 
 Query Side (Read): A separate REST endpoint queries Elasticsearch for high-speed, full-text searchable results.
+
+Updated init 
