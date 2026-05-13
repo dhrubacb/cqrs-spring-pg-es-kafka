@@ -21,7 +21,7 @@ public class TransactionController {
     }
 
     @PostMapping("/deposit")
-    public ResponseEntity<?> deposit( @RequestBody DepositEvent event) {
+    public ResponseEntity<?> deposit(@RequestBody DepositEvent event) {
         transactionService.deposit(event);
         return ResponseEntity.ok().build();
     }
